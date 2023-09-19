@@ -103,6 +103,30 @@ li:nth-child(even) {
   /* color: red; */
 }
 
+/* Misconception: this won't work! */
 article p:last-child {
   color: red;
 }
+
+/* Styling Links. Traget actual links */
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1098ad;
+}
+
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline orangered;
+}
+
+a:active {
+  background-color: black;
+  font-style: italic;
+}
+
+/* LVHA */
